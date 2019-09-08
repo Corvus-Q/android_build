@@ -835,8 +835,12 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   device = target_info.GetBuildProp("ro.du.device")
 
   script.Print("----------------------------------------------");
-  script.Print("              DUREX-EXTRASAFE");
-  script.Print("               by Genkzsz11");
+  script.Print("           ____  __  ______  _______  __
+  script.print("          / __ \/ / / / __ \/ ____/ |/ /
+  script.print("         / / / / / / / /_/ / __/  |   / 
+  script.print("        / /_/ / /_/ / _, _/ /___ /   |  
+  script.print("       /_____/\____/_/ |_/_____//_/|_|  
+  script.print("                                          
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   script.Print(" Build id: %s"%(build_id));
